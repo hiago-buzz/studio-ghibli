@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from './node_modules/styled-components'
 import { globalStyle } from '../../variables';
 
 export const BackgroundMenu = styled.div`

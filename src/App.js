@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Routes from './routes';
-import Menu from './pages/menu/menu';
+import Menu from './pages/Menu';
 
 
 const App = () => {
