@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Routes from './routes';
-import Menu from './pages/Menu';
+import Menu from './pages/Menu/index';
 
 
 const App = () => {
     return (
-        <Fragment>
+        <div className="App">
             <Menu />
             <Routes />
-        </Fragment>
+        </div>
     )
 }
 

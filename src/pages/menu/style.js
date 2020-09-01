@@ -1,11 +1,11 @@
-import styled from './node_modules/styled-components'
+import styled from 'styled-components'
 import { globalStyle } from '../../variables';
 
 export const BackgroundMenu = styled.div`
     width: 320px;
     height: 100vh;
     
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,9 @@ export const BackgroundMenu = styled.div`
     font-family: Arial, Helvetica, sans-serif;
 
     background-color: ${globalStyle.colorBlue};
+
+    transition: display 0.3s;
+    transition-delay: 0.5s;
   
 `;
 
