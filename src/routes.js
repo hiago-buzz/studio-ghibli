@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Films from './pages/Films';
 
+
+
 export default function Routes() {
     return (
         <BrowserRouter>

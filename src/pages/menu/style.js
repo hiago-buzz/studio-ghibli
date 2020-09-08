@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { globalStyle } from '../../variables';
 
-export const BackgroundMenu = styled.div`
+export const Container = styled.div`
     width: 320px;
     height: 100vh;
     
@@ -10,18 +9,17 @@ export const BackgroundMenu = styled.div`
     align-items: center;
     justify-content: center;
 
-    font-family: Arial, Helvetica, sans-serif;
-
-    background-color: ${globalStyle.colorBlue};
+    background-color: var(--color-primary);
 
     transition: display 0.3s;
     transition-delay: 0.5s;
-  
+    
 `;
 
 export const TitleMenu = styled.h1`
-    color: #FFF;
+    color: var(--color-light);
     font-size: 2rem;
+
 `;
 
 export const ListMenu = styled.li`

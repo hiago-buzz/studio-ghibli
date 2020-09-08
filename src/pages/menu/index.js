@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BackgroundMenu, TitleMenu, ListMenu } from './style';
+import { Container, TitleMenu, ListMenu } from './style';
 
 const Menu = () => {
 
     return (
-        <BackgroundMenu>
-            <Link to="/" style={{textDecorationLine: "none"}}>
+        <Container>
+            <Link to="/" style={{ textDecorationLine: "none" }}>
                 <TitleMenu>Studio Ghibli</TitleMenu>
             </Link>
             <ul>
@@ -19,7 +19,7 @@ const Menu = () => {
                 <ListMenu>Lugares</ListMenu>
                 <ListMenu>Veiculos</ListMenu>
             </ul>
-        </BackgroundMenu>
+        </Container>
     )
 }
 

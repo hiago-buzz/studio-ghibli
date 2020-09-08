@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
+import { Container, CardFilm } from './style';
+
 
 export default function Films() {
 
@@ -13,10 +15,14 @@ export default function Films() {
             });
     }, [])
     return (
-        <ul>
+        <Container>
             {films.map(film => {
-                return <li>{film.title}</li>
+                return <CardFilm key={film.id}>{film.title}</CardFilm>
             })}
-        </ul>
+
+            <ul>
+
+            </ul>
+        </Container>
     )
 }
